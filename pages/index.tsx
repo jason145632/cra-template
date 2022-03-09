@@ -1,8 +1,7 @@
-import { ChakraProvider } from '@chakra-ui/react';
 import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
-  return <ChakraProvider />;
+  return <div />;
 };
 
 export default Home;
