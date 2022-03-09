@@ -1,5 +1,5 @@
 {
-  "name": "weather-app",
+  "name": "cra-template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.8.6",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^6",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
@@ -16,8 +20,16 @@
   "devDependencies": {
     "@types/node": "17.0.21",
     "@types/react": "17.0.39",
-    "eslint": "8.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.10.0",
     "eslint-config-next": "12.1.0",
-    "typescript": "4.6.2"
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-xo": "^0.40.0",
+    "eslint-config-xo-typescript": "^0.50.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.3",
+    "prettier": "^2.5.1",
+    "typescript": "^4.6.2"
   }
 }
